@@ -3,7 +3,7 @@
 Draw *metaballs* using the *marching square algorithm* with glut.
 
 
-![til](./gifs/metaballs_grid16.mp4)
+![til](gifs/metaballs_grid16.mp4)
 
 ### The Metaballs
 
@@ -40,12 +40,12 @@ This way we only compute for value at the intersection of green and red dots.
 
 You can play with the size of the grid. A higher distance between the dots of the grid will results in less computation but a poorer approximation of the function
 
-![til](./gifs/metaballs_grid64.mp4)
+![til](gifs/metaballs_grid64.mp4)
 
 A lower distance will make more computation but a better approximation
 
 
-![til](./gifs/metaballs_grid8.mp4)
+![til](gifs/metaballs_grid8.mp4)
 
 
 ### Running 
@@ -55,6 +55,8 @@ You can use the make file to compile the project and execute it easily.
 ```make && ./marching_square```
 
  You will need glut to do so.
+ 
+ You can draw your own function if you add them in the cpp file and put it into the argument of 
 
 ### Thanks
 
