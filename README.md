@@ -11,16 +11,7 @@ Metaballs are objects with a center, a radius and a fixed velocity. They only mo
 
 The implicit function to draw them 
 
-```math
-\boxed{
-\sum_{i=0}^{N} \frac{r_i}{\sqrt{(x-cx_i)²+(y-cy_i)²}} = 1 \qquad with \left\{
-                \begin{array}{ll}
-                  r_i \ radius \ of \ ball \ i \\
-                  cx_i,cy_i \ center \ of \ ball \ i \
-                \end{array}
-              \right
-}
-```
+[Alt text](gifs/metaballs_formula.png)
 
 does the work of reshaping the balls and meking them interact with each other. Each metaball basically behaves like charges in an electric field.
 
