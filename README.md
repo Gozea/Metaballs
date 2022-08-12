@@ -3,7 +3,7 @@
 Draw *metaballs* using the *marching square algorithm* with glut.
 
 
-![til](gifs/metaballs_grid16.mp4)
+![til](gifs/metaballs_grid16.gif)
 
 ### The Metaballs
 
@@ -18,7 +18,7 @@ The implicit function to draw them
                   r_i \ radius \ of \ ball \ i \\
                   cx_i,cy_i \ center \ of \ ball \ i \
                 \end{array}
-              \right.
+              \right
 }
 ```
 
@@ -40,12 +40,12 @@ This way we only compute for value at the intersection of green and red dots.
 
 You can play with the size of the grid. A higher distance between the dots of the grid will results in less computation but a poorer approximation of the function
 
-![til](gifs/metaballs_grid64.mp4)
+![til](gifs/metaballs_grid64.gif)
 
 A lower distance will make more computation but a better approximation
 
 
-![til](gifs/metaballs_grid8.mp4)
+![til](gifs/metaballs_grid8.gif)
 
 
 ### Running 
