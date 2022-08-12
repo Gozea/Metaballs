@@ -12,7 +12,7 @@ Metaballs are objects with a center, a radius and a fixed velocity. They only mo
 The implicit function to draw them 
 
 
-![Alt text](gifs/metaballs_formula.png)
+![Alt text](gifs/metaball_formula.png)
 
 does the work of reshaping the balls and meking them interact with each other. Each metaball basically behaves like charges in an electric field.
 
