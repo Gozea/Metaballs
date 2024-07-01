@@ -14,7 +14,7 @@ The implicit function to draw them
 
 ![Alt text](gifs/metaball_formula.png)
 
-does the work of reshaping the balls and meking them interact with each other. Each metaball basically behaves like charges in an electric field.
+does the work of reshaping the balls and making them interact with each other. Each metaball basically behaves like charges in an electric field.
 
 
 ### The Marching Square Algorithm
